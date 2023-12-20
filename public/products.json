@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "productCode": 1,
+            "name": "Coca Cola",
+            "price": 2,
+            "amount": 13,
+            "imageLink": "https://cdncloudcart.com/16372/products/images/27597/coca-cola-original-taste-1-5-l-63dd3c9887c25_1920x1920.jpeg?1675443607"
+        },
+        {
+            "productCode": 2,
+            "name": "Fanta orange",
+            "price": 1.90,
+            "amount": 14,
+            "imageLink": "https://digitalcontent.api.tesco.com/v2/media/ghs/17489339-25d2-43e3-a7a0-1c0bd9a64653/2c900193-65a3-4d9f-b551-c84513cee480_1426411902.jpeg?h=960&w=960"
+        },
+        {
+            "productCode": 3,
+            "name": "Fanta lemon",
+            "price": 1.80,
+            "amount": 12,
+            "imageLink": "https://cdncloudcart.com/16372/products/images/26498/fanta-limon-1-5-l-62d87982b6ec8_1920x1920.jpeg?1658354087"
+        },
+        {
+            "productCode": 4,
+            "name": "Snikers",
+            "price": 1.50,
+            "amount": 10,
+            "imageLink": "https://avanti-bg.com/wp-content/uploads/2020/07/800-6.jpg"
+        },
+        {
+            "productCode": 5,
+            "name": "MilkyWay",
+            "price": 1.40,
+            "amount": 12,
+            "imageLink": "https://snaxies.com/cdn/shop/products/MilkyWayChocolateBar_2048x2048.jpg?v=1590762379"
+        },
+        {
+            "productCode": 6,
+            "name": "Twix",
+            "price": 1.60,
+            "amount": 14,
+            "imageLink": "https://i5.walmartimages.com/seo/Twix-Caramel-Full-Size-Chocolate-Cookie-Candy-Bars-1-79-oz-Bar_4141ec66-2f37-4a12-88d4-9294577a463e.8652edfb98830dae2db064692804685d.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+        }
+    ]
+}

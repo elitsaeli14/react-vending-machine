@@ -1,0 +1,142 @@
+#main {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-template-areas:
+        "header         header"
+        "list-content   steps-to-buy"
+        "list-content   buy-content"
+        "list-content   .";
+}
+
+/*------ Header ------*/
+
+h1.header {
+    text-align: center;
+    color: rgb(203, 172, 89);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-area: header;
+}
+
+/*------- Steps to buy ------*/
+
+#steps-to-buy {
+    grid-area: steps-to-buy;
+    max-width: 95%;
+}
+
+.ol-items {
+    font-size: 1.2rem;
+}
+
+/*------- List content ------*/
+
+#list-content {
+    grid-area: list-content;
+}
+
+#list-products {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*----- List items ----*/
+
+.list-item {
+    width: 18rem;
+    padding: 0%;
+}
+
+#list-item-body {
+    background-color: rgb(226, 217, 192);
+}
+
+#list-item-title,
+#list-item-text,
+#list-item-text-product-code {
+    text-align: center;
+}
+
+#list-item-title,
+#list-item-text-product-code {
+    font-weight: bold;
+}
+
+#list-item-title {
+    background-color: burlywood;
+    border: 1px solid rgb(41, 38, 38);
+}
+
+/*------ Buy content -----*/
+
+#buy-content {
+    grid-area: buy-content;
+    max-width: 95%;
+}
+
+#form-modal {
+    display: block;
+    position: initial;
+}
+
+#form-label {
+    margin-bottom: 10px;
+}
+
+input[type = text]{
+    margin-bottom: 10px;
+}
+
+#error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 912px) {
+    #main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "steps-to-buy"
+            "list-content"
+            "buy-content";
+    }
+
+    /*------- Steps to buy ------*/
+
+    #steps-to-buy,#list-content , #buy-content {
+       margin: auto;
+       max-width: 90%;
+    }
+
+    /*------- List content ------*/
+
+    #list-products {
+        justify-content: center;
+    }
+
+    /*----- List items ----*/
+
+    .list-item {
+        max-width: 8rem;
+    }
+
+    #list-item-body {
+        max-height: 8rem;
+    }
+
+    #list-item-title {
+        font-size: 0.9rem;
+    }
+
+    #list-item-text {
+        font-size: 0.8rem;
+        margin: 0%;
+    }
+}
